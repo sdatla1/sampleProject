@@ -33,7 +33,11 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/entrypoint.sh">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -46,6 +50,7 @@
       <list>
         <option value="$PROJECT_DIR$/Dockerfile" />
         <option value="$PROJECT_DIR$/action.yml" />
+        <option value="$PROJECT_DIR$/entrypoint.sh" />
       </list>
     </option>
   </component>
@@ -60,8 +65,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="874" />
-    <option name="y" value="107" />
+    <option name="x" value="552" />
+    <option name="y" value="301" />
     <option name="width" value="1646" />
     <option name="height" value="891" />
   </component>
@@ -77,6 +82,11 @@
               <item name="sampleProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="sampleProject" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="sampleProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sampleProject" type="462c0819:PsiDirectoryNode" />
+              <item name=".github" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -86,6 +96,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -114,16 +125,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1634069538547</updated>
-      <workItem from="1634069539951" duration="267000" />
+      <workItem from="1634069539951" duration="544000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="267000" />
+    <option name="totallyTimeSpent" value="544000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="598" y="69" width="1646" height="891" extended-state="0" />
-    <editor active="true" />
+    <frame x="874" y="107" width="1646" height="891" extended-state="0" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -174,7 +184,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/entrypoint.sh">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
