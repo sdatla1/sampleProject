@@ -31,11 +31,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/entrypoint.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.github/workflows/main.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -51,16 +60,7 @@
         <option value="$PROJECT_DIR$/Dockerfile" />
         <option value="$PROJECT_DIR$/action.yml" />
         <option value="$PROJECT_DIR$/entrypoint.sh" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/sampleProject.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.github/workflows/main.yml" />
       </list>
     </option>
   </component>
@@ -86,6 +86,12 @@
               <item name="sampleProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="sampleProject" type="462c0819:PsiDirectoryNode" />
               <item name=".github" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sampleProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sampleProject" type="462c0819:PsiDirectoryNode" />
+              <item name=".github" type="462c0819:PsiDirectoryNode" />
+              <item name="workflows" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -125,15 +131,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1634069538547</updated>
-      <workItem from="1634069539951" duration="544000" />
+      <workItem from="1634069539951" duration="746000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="544000" />
+    <option name="totallyTimeSpent" value="746000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="874" y="107" width="1646" height="891" extended-state="0" />
+    <frame x="552" y="301" width="1646" height="891" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -187,6 +194,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.github/workflows/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
         </state>
       </provider>
     </entry>
