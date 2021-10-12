@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: sdatla1/sampleProject@v1
+        uses: sdatla1/sampleProject
         with:
           who-to-greet: 'Subha Datla'
       # Use the output from the `hello` step
