@@ -2,7 +2,11 @@ name: Build and push Docker image
 
 on:
   push:
-
+services:
+  nginx:
+    depends_on:
+      - reverseproxy
+    image: nginx:alpine
 jobs:
   build-publish-docker-hub:
     runs-on: ubuntu-latest
