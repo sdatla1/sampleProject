@@ -1,9 +1,9 @@
 on: [push]
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
 jobs:
   Welcome_job:
-    runs-on: ubuntu-latest
-      using: 'docker'
-      image: 'Dockerfile'
     steps:
       - name: Check the docker process
         id: Verify the docker process
