@@ -6,7 +6,7 @@ jobs:
   run-github-actions:
       runs-on: ubuntu-latest
       steps:
-        -name: sample commands
+        - name: Sample Commands
         - uses: actions/checkout@v1
         - run: |
              echo "A initial message"
