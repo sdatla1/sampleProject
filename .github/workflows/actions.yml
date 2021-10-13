@@ -8,7 +8,6 @@ jobs:
       steps:
         - name: Sample Commands
         - uses: sdatla1/sampleProject@v1
-        - uses: actions/checkout@v1
         - run: |
              echo "A initial message"
              echo "This is a Test"
