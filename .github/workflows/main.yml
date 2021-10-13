@@ -1,15 +1,24 @@
+name: 'Welcome Message'
+description: 'Greet with Welcome Message'
 on: [push]
-
+services:
+  nginx:
+    depends_on:
+      - reverseproxy
+    image: nginx:alpine
 jobs:
   Welcome_job:
-    runs-on: ubuntu-latest
-    name: Welcome Job
+    runs:
+      using: 'docker'
+      image: 'Dockerfile'
     steps:
       - name: Welcome action step
         id: Welcome
         uses: sdatla1/sampleProject@v1
         with:
           who-to-greet: 'Mike'
-      # Use the output from the `Welcome` step
-      - name: Get the output time
-        run: echo "The time was ${{ steps.Welcome.outputs.time }}"
+       -name: Check the docker process
+         id : Verify docker process
+        run: |
+            docker ps -eaf
+            docker ps --filter status=running
