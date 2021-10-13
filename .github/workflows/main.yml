@@ -6,10 +6,13 @@ jobs:
     steps:
       - uses: sdatla1/sampleProject@v1
       - uses: actions/checkout@v1
+      - runs:
+            using: 'docker'
+            image: 'Dockerfile'
       - name: Build and Push to DockerHub
         run: |
           docker ps
           docker ps --filter status=running
-      - name: Run the script
+      - name: Run the local script on the docker container
         shell: bash
         run: ./sampleScript.sh
