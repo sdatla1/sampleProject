@@ -1,0 +1,13 @@
+name: Actions Workflow
+
+on: [pull_request]
+
+jobs:
+  run-github-actions:
+      runs-on: ubuntu-latest
+      steps:
+        -name: sample commands
+         -run: |
+           echo "This is a Test"
+           pwd
+           ls -al
