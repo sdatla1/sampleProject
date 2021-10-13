@@ -1,9 +1,4 @@
 on: [push]
-services:
-  nginx:
-    depends_on:
-      - reverseproxy
-    image: nginx:alpine
 jobs:
   Welcome_job:
     runs:
