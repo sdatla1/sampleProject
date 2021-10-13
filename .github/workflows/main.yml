@@ -3,7 +3,7 @@ runs:
   using: 'docker'
   image: 'Dockerfile'
 jobs:
-  Welcome_job:
+  Docker_job:
     steps:
       - name: Check the docker process
         id: Verify the docker process
