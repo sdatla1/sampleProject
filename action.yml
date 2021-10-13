@@ -1,16 +1,26 @@
 # action.yml
-name: 'Hello World'
-description: 'Greet someone and record the time'
+name: 'Welcome Message'
+description: 'Greet with Welcome Message'
+services:
+  nginx:
+    depends_on:
+      - reverseproxy
+    image: nginx:alpine
 inputs:
   who-to-greet:  # id of input
-    description: 'Who to greet'
+    description: 'Person to Welcome'
     required: true
-    default: 'World'
+    default: 'Welcome'
 outputs:
   time: # id of output
-    description: 'The time we greeted you'
+    description: 'The time the message is shown'
 runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
     - ${{ inputs.who-to-greet }}
+steps:
+    -name: Check the docker process
+     run: |
+          docker ps -eaf
+       docker ps --filter status=running

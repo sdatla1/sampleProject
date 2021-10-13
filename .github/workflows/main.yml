@@ -1,12 +1,12 @@
 on: [push]
 
 jobs:
-  hello_world_job:
+  Welcome_job:
     runs-on: ubuntu-latest
-    name: A job to say hello
+    name: Welcome Message
     steps:
-      - name: Hello world action step
-        id: hello
+      - name: Welcome action step
+        id: Welcome
         uses: sdatla1/sampleProject@v1
         with:
           who-to-greet: 'Subha Datla'

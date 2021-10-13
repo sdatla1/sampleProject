@@ -1,8 +1,8 @@
-# Container image that runs your code
+# Container image that runs the code
 FROM alpine:3.10
 
-# Copies your code file from your action repository to the filesystem path `/` of the container
-COPY entrypoint.sh /entrypoint.sh
+# Copies shell script from the location to the filesystem path `/` of the container
+COPY sampleScript.sh /sampleScript.sh
 
-# Code file to execute when the docker container starts up (`entrypoint.sh`)
-ENTRYPOINT ["/entrypoint.sh"]
+# Code file to execute when the docker container starts up (`sampleScript.sh`)
+ENTRYPOINT ["/sampleScript.sh"]
