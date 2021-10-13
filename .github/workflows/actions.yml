@@ -10,3 +10,8 @@ jobs:
           run: |
              echo "A initial message"
              echo "This is a Test"
+             echo %PATH%
+            shell: bash
+              run: pwd
+
+
