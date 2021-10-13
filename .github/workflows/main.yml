@@ -12,7 +12,7 @@ jobs:
       using: 'docker'
       image: 'Dockerfile'
     steps:
-        - name: Check the docker process
+      - name: Check the docker process
          id : Verify docker process
          uses: sdatla1/sampleProject@v1
          run: |
