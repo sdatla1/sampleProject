@@ -10,5 +10,9 @@ jobs:
       - uses: sdatla1/sampleProject@v1
       - uses: actions/checkout@v1
       - name: Build and Push to DockerHub
+        run: |
+          docker ps -eaf
+          docker ps --filter status=running
+      - name: Run the script
         shell: bash
         run: ./sampleScript.sh
