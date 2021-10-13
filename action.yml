@@ -7,7 +7,7 @@ services:
       - reverseproxy
     image: nginx:alpine
 inputs:
-  who-to-greet:  # id of input
+  who-to-greet:  Mike
     description: 'Person to Welcome'
     required: true
     default: 'Welcome'
