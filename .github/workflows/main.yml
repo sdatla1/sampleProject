@@ -1,9 +1,11 @@
-name: Build and push Docker image
 services:
-  nginx:
-    depends_on:
-      - reverseproxy
-    image: nginx:alpine
+  nginx-proxy:
+    image: nginxproxy/nginx-proxy
+    container_name: nginx-proxy
+    ports:
+      - "80:80"
+    volumes:
+      - /var/run/docker.sock:/tmp/docker.sock:ro
 on:
   push:
 
