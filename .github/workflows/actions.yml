@@ -10,7 +10,6 @@ jobs:
           run: |
              echo "A initial message"
              echo "This is a Test"
-            shell: bash
               run: |
                  pwd
                  ls -al
