@@ -14,7 +14,6 @@ jobs:
     steps:
       - name: Check the docker process
         id: Verify the docker process
-        uses: sdatla1/sampleProject@v1
         run: |
             docker ps -eaf
             docker ps --filter status=running
