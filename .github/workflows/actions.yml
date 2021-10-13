@@ -7,7 +7,7 @@ jobs:
       runs-on: ubuntu-latest
       steps:
         - name: Sample Commands
-          uses: sdatla1/sampleProject@v1
+        - uses: sdatla1/sampleProject@v1
           run: |
              echo "A initial message"
              echo "This is a Test"
