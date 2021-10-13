@@ -9,7 +9,7 @@ jobs:
         - name: Sample Commands
           run: |
              echo "A initial message"
-             echo "This is a Test"
+             echo "This is a Test1"
               run: |
                  pwd
                  ls -al
