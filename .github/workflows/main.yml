@@ -1,7 +1,7 @@
 on: [push]
 jobs:
   Welcome_job:
-    runs:
+    runs-on: ubuntu-latest
       using: 'docker'
       image: 'Dockerfile'
     steps:
