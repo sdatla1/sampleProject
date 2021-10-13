@@ -6,10 +6,10 @@ jobs:
     steps:
       - uses: sdatla1/sampleProject@v1
       - uses: actions/checkout@v1
-      - runs:
-            using: 'docker'
-            image: 'Dockerfile'
       - name: Build and Push to DockerHub
+      - runs:
+        using: 'docker'
+        image: 'Dockerfile'
         run: |
           docker ps
           docker ps --filter status=running
