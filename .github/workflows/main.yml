@@ -11,4 +11,6 @@ jobs:
           docker ps --filter status=running
       - name: Run the local script on the docker container
         shell: bash
-        run: ./sampleScript.sh
+        run: |
+            chmod +x sampleScript.sh
+            ./sampleScript.sh
