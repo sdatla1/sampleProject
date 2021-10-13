@@ -1,5 +1,3 @@
-name: 'Welcome Message'
-description: 'Greet with Welcome Message'
 on: [push]
 services:
   nginx:
