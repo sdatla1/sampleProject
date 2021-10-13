@@ -7,7 +7,7 @@ jobs:
       runs-on: ubuntu-latest
       steps:
         -name: sample commands
-         -run: |
+         run: |
            echo "This is a Test"
            pwd
            ls -al
