@@ -10,6 +10,6 @@ jobs:
         uses: sdatla1/sampleProject@v1
         with:
           who-to-greet: 'Mike'
-      # Use the output from the `hello` step
+      # Use the output from the `Welcome` step
       - name: Get the output time
         run: echo "The time was ${{ steps.Welcome.outputs.time }}"
